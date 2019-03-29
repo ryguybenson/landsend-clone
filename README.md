@@ -19,6 +19,10 @@ _This application is a clone of the Lands' End website._
 
 _So far all the contents of the Lands' End landing page have been completed. For the most part they are formatted correctly, however they still need styles added to them. The landing page is split into two components. There is the main body component, which takes up most of the page, and the header component, which will just display with a fixed position at the top of the page._
 
+## Feature To Be Added
+
+_First, the styles need to be added to the landing page so it looks more presentable. Then, the various click and hover functions need to be added to make the page interactable. After that, the sign in page needs to be completed and added so that users can sign in and stay signed in._
+
 ## Known Bugs
 
 _There are many know bugs._
