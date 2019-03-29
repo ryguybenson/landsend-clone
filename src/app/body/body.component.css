@@ -95,12 +95,37 @@
 .top-footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-right: auto;
 }
 .top-footer-content {
+  width: 30%;
+  text-align: center;
+}
+.mid-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mid-footer-content {
   width: 20vw;
 }
-.top-footer-content>ul {
+.mid-footer-content>ul {
   list-style: none;
   padding-left: 0;
+}
+.bottom-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.bottom-footer-left {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+.bottom-footer-right {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
 }
