@@ -76,3 +76,16 @@
   width: 1142px;
   background-image: url("../../assets/images/sale.jpg");
 }
+.best-sellers {
+  display: flex;
+  flex-direction: row;
+}
+.best-clothes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cant-wait-header {
+  text-align: center;
+}
