@@ -89,3 +89,18 @@
 .cant-wait-header {
   text-align: center;
 }
+.sponsored {
+  text-align: center;
+}
+.top-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top-footer-content {
+  width: 20vw;
+}
+.top-footer-content>ul {
+  list-style: none;
+  padding-left: 0;
+}
