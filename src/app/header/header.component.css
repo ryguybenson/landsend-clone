@@ -80,16 +80,23 @@
 .women-subnav {
   position: absolute;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  width: 600px;
+  border-top: 1px solid black;
 }
 .women-subnav>ul {
+  width: 175px;
   list-style: none;
   padding: 9%;
   font-family: lato,"Helvetica Neue",helvetica,arial,sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
+  padding: 0;
 }
 .women-subnav>ul>li {
-  margin: 10px;
+  margin: 5px;
 }
 .main-bottom>h3 {
   padding-left: 14px;
