@@ -104,16 +104,42 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4%;
+}
+.box>img {
+  margin-bottom: -3%;
+}
+.box>h2 {
+  font-family: "argentcf-bold","Times New Roman",times,serif !important;
+  font-size: 2.2em !important;
+  color: black !important;
+  margin: 0 !important;
+  letter-spacing: -1px !important;
+}
+.box>p {
+  font-family: lato,"Helvetica Neue",helvetica,arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  margin: 0;
+  width: 80%;
+  text-align: center;
 }
 .box>button {
   position: relative;
   bottom: 15%;
 }
 .sale {
-  margin: auto;
-  height: 250px;
-  width: 100vw;
   background-image: url("../../assets/images/sale.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+  height: 200px;
+  width: 100vw;
+  margin-bottom: 4%;
+}
+.best-header {
+  text-align: center;
 }
 .best-sellers {
   display: flex;
