@@ -77,17 +77,24 @@
 .main-bottom>ul>li {
   display: inline;
 }
+.main-bottom:hover .women-subnav {
+  display: contents;
+}
+.hide {
+  display: none;
+}
 .women-subnav {
   position: absolute;
   background-color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   z-index: 10;
   width: 600px;
   border-top: 1px solid black;
 }
 .women-subnav>ul {
-  width: 175px;
+  width: 150px;
   list-style: none;
   padding: 9%;
   font-family: lato,"Helvetica Neue",helvetica,arial,sans-serif;
