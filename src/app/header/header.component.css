@@ -77,6 +77,20 @@
 .main-bottom>ul>li {
   display: inline;
 }
+.women-subnav {
+  position: absolute;
+  background-color: white;
+}
+.women-subnav>ul {
+  list-style: none;
+  padding: 9%;
+  font-family: lato,"Helvetica Neue",helvetica,arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+}
+.women-subnav>ul>li {
+  margin: 10px;
+}
 .main-bottom>h3 {
   padding-left: 14px;
   padding-right: 14px;
