@@ -77,9 +77,6 @@
 .main-bottom>ul>li {
   display: inline;
 }
-.main-bottom:hover .women-subnav {
-  display: contents;
-}
 .hide {
   display: none;
 }
