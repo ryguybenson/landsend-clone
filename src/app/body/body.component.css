@@ -78,7 +78,7 @@
 .sale {
   margin: auto;
   height: 250px;
-  width: 1142px;
+  width: 100vw;
   background-image: url("../../assets/images/sale.jpg");
 }
 .best-sellers {

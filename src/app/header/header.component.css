@@ -1,14 +1,23 @@
 .top-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   background-color: #0c2340;
   color: white;
+  font-family: lato,"Helvetica Neue",helvetica,arial,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  height: 40px;
 }
 .top-left {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
+  width: 30vw;
 }
 .top-middle {
   display: flex;
@@ -18,7 +27,8 @@
 .top-right {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
+  width: 30vw;
 }
 .main-header {
   display: flex;
