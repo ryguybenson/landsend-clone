@@ -25,7 +25,7 @@ _First, the styles need to be added to the landing page so it looks more present
 
 ## Known Bugs
 
-_There are many know bugs._
+_There are many known bugs._
 
 ## Support and contact details
 
