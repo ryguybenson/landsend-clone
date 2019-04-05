@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  
+  hover() {
+    alert("you did it")
+  }
 
   constructor() { }
 
